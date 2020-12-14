@@ -1,0 +1,146 @@
+body{
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-menu{
+    overflow: hidden;
+    background-color: grey;
+    box-shadow: 5px 8px 9px rgb(105, 100, 100);
+    border-radius: 10px;
+}
+
+.navbar-menu a{
+    float: right;
+    text-align: center;
+    padding: 17px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+.navbar-menu a:hover{
+    background-color: rgb(174, 179, 179);
+    border-radius: 10px;
+}
+
+.logo-nav{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 40px;
+    padding-top: 8px;
+}
+
+h3{
+    font-family: cursive;
+    float: left;
+    padding-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: white;
+}
+
+.navbar-menu .bars:hover{
+    background-color: grey;
+    color: darkgray;
+}
+
+.image{
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.label-image{
+    color: darkgrey;
+    text-align: center;
+}
+
+.form-login{
+    background-color: rgb(189, 184, 184);
+    width: 700px;
+    margin-left: 350px;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 5px 8px 8px rgb(87, 83, 83);
+}
+
+.form-login .form-container{
+    padding-top: 70px;
+    background-color: grey;
+    height: 300px;
+    width: 500px;
+    margin-left: 105px;
+    text-align: center;
+    box-shadow: 5px 8px 8px rgb(88, 86, 86);
+}
+
+.form-label{
+    color: white;
+    font-size: 18px;
+    
+}
+
+.form-input{
+    margin-top: 20px;
+    width: 120px;
+}
+
+.login-label{
+    margin-left: 650px;
+    margin-top: 79px;
+}
+
+.btn-login{
+    margin-top: 30px;
+    width: 120px;
+    background-color: rgb(48, 48, 221);
+    box-shadow: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: cursive;
+    color: white;
+}
+
+
+.btn-login:hover{
+    background-color: rgb(51, 70, 180);
+}
+
+.container-user{
+    width: 1170px;
+    background-color: rgb(192, 183, 183);
+    padding-bottom: 470px;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.table-user{
+    color: white;
+    border-collapse: collapse;
+    width: 1000px;
+    margin-left: 80px;
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 0;
+}
+
+th{
+    background-color: grey;
+}
+
+.btn-insert{
+    float: right;
+    margin-right: 90px;
+    margin-top: 10px;
+}
+
